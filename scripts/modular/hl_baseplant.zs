@@ -1,0 +1,406 @@
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.IngredientArrayBuilder;
+
+RecipeBuilder.newBuilder("baseplant_ii3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockinputbus:2>*2,
+
+	])
+	.addItemOutput(<modularmachinery:blockinputbus:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_io3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockoutputbus:2>*2,
+		<ironchest:iron_chest>*1
+	])
+	.addItemOutput(<modularmachinery:blockoutputbus:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_li3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockfluidinputhatch:2>*2,
+		<ironchest:iron_chest>*1
+	])
+	.addItemOutput(<modularmachinery:blockfluidinputhatch:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lo3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockfluidoutputhatch:2>*2,
+		<mets:te:36>*1
+	])
+	.addItemOutput(<modularmachinery:blockfluidoutputhatch:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_ei3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockenergyinputhatch:2>*2,
+		<mets:te:36>*1,
+		<ic2:dust:6>*9
+	])
+	.addItemOutput(<modularmachinery:blockenergyinputhatch:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_eo3","baseplant",300)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:circuitBasic>*2,
+		<modularmachinery:blockenergyoutputhatch:2>*2,
+		<ic2:dust:6>*9
+	])
+	.addItemOutput(<modularmachinery:blockenergyoutputhatch:3>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_ii4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockinputbus:3>*2,
+		<ironchest:iron_chest:2>*1
+	])
+	.addItemOutput(<modularmachinery:blockinputbus:4>*4)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_io4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockoutputbus:3>*2,
+		<ironchest:iron_chest:2>*1
+	])
+	.addItemOutput(<modularmachinery:blockoutputbus:4>*4)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_li4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockfluidinputhatch:3>*2,
+		<ic2:te:134>*1
+	])
+	.addItemOutput(<modularmachinery:blockfluidinputhatch:4>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lo4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockfluidoutputhatch:3>*2,
+		<ic2:te:134>*1
+	])
+	.addItemOutput(<modularmachinery:blockfluidoutputhatch:4>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_ei4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockenergyinputhatch:3>*2,
+		<ore:ingotEnergium>*2
+	])
+	.addItemOutput(<modularmachinery:blockenergyinputhatch:4>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_eo4","baseplant",300)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:circuitAdvanced>*2,
+		<modularmachinery:blockenergyinputhatch:3>*2,
+		<ore:ingotEnergium>*2
+	])
+	.addItemOutput(<modularmachinery:blockenergyinputhatch:4>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_jcjxwk","baseplant",160)
+	.addEnergyPerTickInput(1000)
+	.addItemInputs([
+		<ore:plateIron>*12,
+		<ore:dustRedstone>*4
+	])
+	.addItemOutput(<ic2:resource:12>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_hhc","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<mekanism:machineblock2:8>*1,
+		<mekanism:machineblock2:3>*1,
+		<mekanism:machineblock2:7>*1,
+		<thermalexpansion:machine:3>*1,
+		<thermalexpansion:machine:1>*1,
+		<modularmachinery:oreintegrateprocessing_factory_controller>*2,
+		<modularmachinery:blockcasing:4>*4
+	])
+	.addItemOutput(<modularmachinery:wloreactivaredplant_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_gjzp","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<draconicevolution:fusion_crafting_core>*1,
+		<ic2:resource:13>*4,
+		<mekanism:machineblock:8>*1,
+		<appliedenergistics2:molecular_assembler>*4,
+		<ore:ingotAtronium>*2
+	])
+	.addItemOutput(<modularmachinery:assemblyplant_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_hhl","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<ic2:resource:13>*4,
+		<tconstruct:seared_tank>*4,
+		<tconstruct:smeltery_controller>*4,
+		<tconstruct:tinker_tank_controller>*4
+	])
+	.addItemOutput(<modularmachinery:mixsmelter_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_clc","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<ic2:resource:13>*4,
+		<ic2:te:47>*4,
+		<ic2:te:56>*4,
+		<ic2:te:54>*4,
+		<modularmachinery:blockcasing>*4
+	])
+	.addItemOutput(<modularmachinery:oreintegrateprocessing_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_hjc","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<ic2:resource:13>*4,
+		<thermalexpansion:machine:3>*4,
+		<ic2:te:12>*4
+	])
+	.addItemOutput(<modularmachinery:alloysmelters_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_fdc","baseplant",300)
+	.addEnergyPerTickInput(20000)
+	.addItemInputs([
+		<ic2:resource:13>*4,
+		<thermalexpansion:dynamo>*4,
+		<thermalexpansion:dynamo:1>*4,
+		<thermalexpansion:dynamo:2>*4,
+		<thermalexpansion:dynamo:3>*4,
+		<thermalexpansion:dynamo:4>*4
+	])
+	.addItemOutput(<modularmachinery:thermalpower_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk1","baseplant",600)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<galacticraftcore:heavy_plating>*16,
+		<botania:terrapick>*1,
+		<thermalfoundation:material:656>*4,
+		<ic2:te:57>*4
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk1_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk2","baseplant",600)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<galacticraftplanets:item_basic_mars:3>*16,
+		<ore:circuitBasic>*16,
+		<ic2:upgrade>*4,
+		<modularmachinery:remoteexcavatebasestationmk1_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk2_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk3","baseplant",600)
+	.addEnergyPerTickInput(8000)
+	.addItemInputs([
+		<galacticraftplanets:item_basic_asteroids:5>*16,
+		<ore:circuitAdvanced>*16,
+		<ic2:upgrade>*16,
+		<modularmachinery:remoteexcavatebasestationmk2_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk3_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_jbysj","baseplant",600)
+	.addEnergyPerTickInput(8000)
+	.addItemInputs([
+		<thermalexpansion:machine:5>*4,
+		<galacticraftcore:machine2>*4,
+		<ic2:te:43>*4
+	])
+	.addItemOutput(<modularmachinery:getherringexplosionscomperessor_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lx","baseplant",60)
+	.addEnergyPerTickInput(40000)
+	.addInput(<liquid:ic2uu_matter>*10)
+	.addItemInputs([
+		<thermalfoundation:geode>*4,
+		<ore:ingotRunesteel>*4,
+		<ore:ingotEthaxium>*4,
+		<ore:ingotTitanium>*4,
+		<ore:ingotDraconium>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_core>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lqcz","baseplant",600)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thaumicaugmentation:material:5>*1,
+		<thaumicaugmentation:material:3>*1,
+		<ore:ingotVoid>*4,
+		<thaumcraft:primordial_pearl>*1,
+		<thaumcraft:mechanism_complex>*2,
+		<ore:circuitAdvanced>*4,
+		<ore:ingotTrichromadentium>*1,
+		<ore:scalewhitedragon>*4,
+		<draconicevolution:draconic_core>*1
+	])
+	.addItemOutput(<modularmachinery:auramanipulator_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_ydlx","baseplant",600)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thaumcraft:centrifuge>*1,
+		<thaumicaugmentation:material:5>*1,
+		<thaumicaugmentation:material:3>*1,
+		<ore:ingotVoid>*4,
+		<thaumcraft:primordial_pearl>*1,
+		<thaumcraft:mechanism_complex>*2,
+		<ore:circuitAdvanced>*4,
+		<ore:ingotTrichromadentium>*1,
+		<ore:scalewhitedragon>*4,
+		<draconicevolution:draconic_core>*1
+	])
+	.addItemOutput(<modularmachinery:impetuscore_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_yybs","baseplant",20)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thermalfoundation:geode>*10,
+		<appliedenergistics2:paint_ball:15>*8
+	])
+	.addItemOutput(<abyssalcraft:shadowgem>*8)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_sjjk","baseplant",20)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thermalfoundation:material:640>*8,
+		<modularmachinery:blockcasing>*2,
+		<mekanism:controlcircuit>*4
+	])
+	.addItemOutput(<modularmachinery:blocksmartinterface>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lslc","baseplant",200)
+	.addEnergyPerTickInput(12000)
+	.addItemInputs([
+		<draconicevolution:draconic_core>*1,
+		<ore:blockRedstone>*4,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:plate_dragon_vegetarian>*2,
+		<mekanism:controlcircuit>*4
+	])
+	.addItemOutput(<contenttweaker:dragon_stand_generator>*2)
+	.build();
+RecipeBuilder.newBuilder("baseplant_fllc","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<draconicevolution:wyvern_core>*1,
+		<draconicevolution:wyvern_energy_core>*2,
+		<contenttweaker:dragon_wire>*16,
+		<contenttweaker:plate_dragon_vegetarian>*8,
+		<mekanism:controlcircuit:1>*4
+	])
+	.addItemOutput(<contenttweaker:wyvern_stand_generator>*2)
+	.build();
+RecipeBuilder.newBuilder("baseplant_sjlc","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:crystal_matrix_wire>*4,
+		<contenttweaker:plate_crystal_matrix>*2,
+		<mekanism:controlcircuit:2>*4
+	])
+	.addItemOutput(<contenttweaker:crystal_matrix_stance_generator>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flt","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_helmet>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_helm>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flj","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_chestplate>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_chest>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flk","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_leggings>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_legs>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flx","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_boots>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_boots>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_wyvmater","baseplant",400)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<tconevo:material>*19,
+		<contenttweaker:wyvern_stand_generator>*16,
+		<contenttweaker:dragon_wire>*32,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*32,
+		<contenttweaker:plate_dragon_vegetarian>*16
+	])
+	.addItemOutput(<tconevo:metal>*19)
+	.build();
