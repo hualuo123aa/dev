@@ -468,7 +468,7 @@ RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_boots>*1
 	])
-	.addItemOutput(<mekanism:mekasuitboots>*1)
+	.addItemOutput(<mekanism:mekasuit_boots>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
@@ -481,7 +481,7 @@ RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_legs>*1
 	])
-	.addItemOutput(<mekanism:mekasuitleggings>*1)
+	.addItemOutput(<mekanism:mekasuit_pants>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
@@ -494,7 +494,7 @@ RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_chest>*1
 	])
-	.addItemOutput(<mekanism:mekasuitchestplate>*1)
+	.addItemOutput(<mekanism:mekasuit_bodyarmor>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
@@ -507,7 +507,7 @@ RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_helm>*1
 	])
-	.addItemOutput(<mekanism:mekasuithelmet>*1)
+	.addItemOutput(<mekanism:mekasuit_helmet>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)

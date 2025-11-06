@@ -9,6 +9,11 @@ recipes.remove(<mets:super_circuit>);
 recipes.remove(<mets:living_circuit>);
 recipes.remove(<ic2:crafting:2>);
 recipes.remove(<ic2:crafting:1>);
+recipes.remove(<mekanism:mekasuit_helmet>);
+recipes.remove(<mekanism:mekasuit_bodyarmor>);
+recipes.remove(<mekanism:mekasuit_pants>);
+recipes.remove(<mekanism:mekasuit_boots>);
+
 
 Compressor.remove(<galacticraftcore:heavy_plating>);
 Compressor.remove(<galacticraftplanets:item_basic_mars:3>);
